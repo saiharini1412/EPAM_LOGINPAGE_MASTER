@@ -1,0 +1,203 @@
+.container_box{
+  margin-left: 35%;
+  margin-top: 4%;
+  width: 30%;
+}
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 1.5rem 0 rgba(0, 0, 0, 0.4);
+}
+
+.card-head{
+  background-color:#13d4ca;
+  border-radius: 0.5rem 0.5rem 0 0 ;
+  color: white;
+}
+
+.card-head .inside{
+  font-size: 2rem;
+  padding-left: 15pt;
+  padding-top: 10pt;
+  padding-right: 15pt;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-head .inside #signin{
+  font-size: 2.1rem;
+  font-weight: bold;
+  margin-top: -0.5rem;
+}
+
+.card-body{
+  padding-left: 10%;
+}
+
+.card-body-top{
+  padding-top: 8%;
+}
+
+.form-signin .wrapper{
+  position: relative;
+}
+
+.form-signin .wrapper .input{
+  width: 90%;
+  text-indent: 3%;
+  height: 3.5rem;
+  border-radius: 3pt;
+  box-shadow: 0;
+}
+
+.form-signin .wrapper .icon{
+  position: absolute;
+  top:25%;
+  left:83%;
+  opacity:0.5;
+}
+
+.form-signin .wrapper .submit{
+  background-color: #13d4ca;
+  border-radius: 1rem;
+  color: white;
+  opacity: 0.8;
+  letter-spacing: 2pt;
+}
+
+.br{
+  content: "";
+  margin: 3.5em;
+  display: block;
+  font-size: 26%;
+}
+
+.submit{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.signin-tag{
+  padding-right: 10%;
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.seperator {
+    margin-left: -10%;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0.5;
+}
+.seperator:before,
+.seperator:after {
+    background-color: grey;
+    content: "";
+    display: inline-block;
+    height: 1pt;
+    position: relative;
+    vertical-align: middle;
+    width: 35%;
+}
+.seperator:before {
+    right: 0.8em;
+}
+.seperator:after {
+    left: 0.8em;
+}
+
+.card-body-bottom .btn{
+  width: 90%;
+  border-radius: 1rem;
+  opacity: 0.8;
+}
+
+.card-body-bottom .facebook{
+  background-color:#1111f2;
+}
+
+.card-body-bottom .google{
+  background-color: #ed052b;
+}
+
+.card-body-bottom .epam{
+  background-color: #cdf213;
+  letter-spacing: 2pt;
+}
+
+.card-body-bottom .btn .icon{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: white;
+}
+
+/* Media quries for Mobile view */
+@media screen and (min-width:320px) and (max-width:500px) {
+  .container_box{
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 95%;
+  }
+}
+
+
+/* Media queries for Ipad view */
+@media screen and (min-width:501px) and (max-width:1024px) {
+  .container_box{
+    margin-left: 8%;
+    margin-top: 4%;
+    width: 85%;
+  }
+
+  .card-head{
+    height: 8rem;
+  }
+
+  .card-head .inside{
+    font-size: 3.5rem;
+    padding: 17pt 20pt 0 20pt;
+  }
+
+  .card-head .inside #signin{
+    font-size: 3.7rem;
+    margin-top: -0.6rem;
+  }
+
+  .br{
+    font-size: 45%;
+  }
+
+  .form-signin .wrapper .input{
+    font-size: 2.5rem;
+    height: 5.5rem;
+  }
+
+  .form-signin .wrapper .icon{
+    left:80%;
+    font-size: 2.5rem;
+  }
+
+  .signin-tag{
+    font-size: 2rem;
+    letter-spacing: 0.8pt;
+  }
+
+  .seperator{
+    font-size: 3rem;
+  }
+
+  .seperator:before,
+  .seperator:after {
+      height: 2pt;
+      width: 34%;
+  }
+
+  .card-body-bottom .btn{
+    height: 5rem;
+  }
+
+  .card-body-bottom .btn .icon{
+    font-size: 2.5rem;
+  }
+}
